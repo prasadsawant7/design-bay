@@ -1,5 +1,61 @@
-#logo {
-    margin: 10px 0px;
-    height: 50px;
-    width: 50px;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+}
+
+img.slider {
+    width: 1440px; 
+    height: 755px;
+}
+
+span#assurity-block {
+    height: 140px;
+    background-color: #F2F5FF;
+}
+
+#free-delivery, #support, #authentic {
+    height: 60px;
+    width: 180px;
+    display: flex;
+    justify-content: center;
+}
+
+#assurity-block .d-flex {
+    padding-top: 15px;
+}
+
+#free-delivery .fas {
+    color: #111111;
+    margin-top: 7.5px;
+}
+
+#support .fas {
+    color: #111111;
+    margin-top: 7.5px;
+}
+
+#authentic .bx {
+    color: #111111;
+    font-size: 3.7em;
+    margin-left: -20px;
+}
+
+#free-delivery, #support, #authentic .header {
+    color: #111111;
+}
+
+footer {
+    background-color: #111111;
+    color: white;
+}
+
+div #site, p #mail {
+    color: white;
 }
