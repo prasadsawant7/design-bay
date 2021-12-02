@@ -114,9 +114,9 @@ let fa2 = document.getElementById("fa2");
 let fa3 = document.getElementById("fa3");
 let fa4 = document.getElementById("fa4");
 let fa5 = document.getElementById("fa5");
-let fa6 = document.getElementById("fa6");
-let fa7 = document.getElementById("fa7");
-let fa8 = document.getElementById("fa8");
+// let fa6 = document.getElementById("fa6");
+// let fa7 = document.getElementById("fa7");
+// let fa8 = document.getElementById("fa8");
 
 
 function addToCart(icon, noi) { // num of icon
@@ -139,15 +139,15 @@ function addToCart(icon, noi) { // num of icon
         case "fa5":
             fa5.setAttribute("onclick", "removeFromCart(this, 'fa5')");
             break;
-        case "fa6":
-            fa6.setAttribute("onclick", "removeFromCart(this, 'fa6')");
-            break;
-        case "fa7":
-            fa7.setAttribute("onclick", "removeFromCart(this, 'fa7')");
-            break;
-        case "fa8":
-            fa8.setAttribute("onclick", "removeFromCart(this, 'fa8')");
-            break;
+        // case "fa6":
+        //     fa6.setAttribute("onclick", "removeFromCart(this, 'fa6')");
+        //     break;
+        // case "fa7":
+        //     fa7.setAttribute("onclick", "removeFromCart(this, 'fa7')");
+        //     break;
+        // case "fa8":
+        //     fa8.setAttribute("onclick", "removeFromCart(this, 'fa8')");
+        //     break;
     }
 }
 
@@ -171,15 +171,15 @@ function removeFromCart(icon, noi) {
         case "fa5":
             fa5.setAttribute("onclick", "addToCart(this, 'fa5')");
             break;
-        case "fa6":
-            fa6.setAttribute("onclick", "addToCart(this, 'fa6')");
-            break;
-        case "fa7":
-            fa7.setAttribute("onclick", "addToCart(this, 'fa7')");
-            break;
-        case "fa8":
-            fa8.setAttribute("onclick", "addToCart(this, 'fa8')");
-            break;
+        // case "fa6":
+        //     fa6.setAttribute("onclick", "addToCart(this, 'fa6')");
+        //     break;
+        // case "fa7":
+        //     fa7.setAttribute("onclick", "addToCart(this, 'fa7')");
+        //     break;
+        // case "fa8":
+        //     fa8.setAttribute("onclick", "addToCart(this, 'fa8')");
+        //     break;
     }
 }
 
